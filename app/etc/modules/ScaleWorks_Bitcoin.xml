@@ -6,8 +6,8 @@
             <codePool>community</codePool>
             <depends>
                 <Mage_Directory/>
-<!--                <Mage_Payment/>
-                <Mage_Sales/>-->
+                <Mage_Payment/>
+                <Mage_Sales/>
             </depends>
         </ScaleWorks_Bitcoin>
     </modules>
