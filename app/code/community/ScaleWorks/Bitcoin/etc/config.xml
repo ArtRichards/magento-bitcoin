@@ -67,17 +67,17 @@
                 </services>
             </import>
         </currency>
-        <fieldsets>
+<!--        <fieldsets>
             <sales_convert_quote_payment>
                 <bitcoin_payment_address><to_order_payment>*</to_order_payment></bitcoin_payment_address>
             </sales_convert_quote_payment>
             <sales_convert_order_payment>
                 <bitcoin_payment_address><to_quote_payment>*</to_quote_payment></bitcoin_payment_address>
             </sales_convert_order_payment>
-        </fieldsets>
+        </fieldsets>-->
     </global>
 
-    <adminhtml>
+<!--    <adminhtml>
         <layout>
             <updates>
                 <bitcoin>
@@ -85,7 +85,7 @@
                 </bitcoin>
             </updates>
         </layout>
-    </adminhtml>
+    </adminhtml>-->
     
     <admin>
          <routers>
@@ -110,13 +110,13 @@
             </modules>
         </translate>
 
-        <layout>
+<!--        <layout>
             <updates>
                 <bitcoin>
                     <file>scaleworks/bitcoin.xml</file>
                 </bitcoin>
             </updates>
-        </layout>
+        </layout>-->
     </frontend>
 
     <default>
@@ -139,7 +139,7 @@
                 <error_email_template>currency_import_error_email_template</error_email_template>
             </import>
         </currency>
-        <payment>
+<!--        <payment>
             <bitcoin>
                 <active>1</active>
                 <title>Bitcoin</title>
@@ -155,15 +155,15 @@
                 <order_status>pending</order_status>
                 <group>offline</group>
             </bitcoin>
-        </payment>
+        </payment>-->
     </default>
 
-    <crontab>
+<!--    <crontab>
         <jobs>
             <bitcoin_fetch_confirmations>
                 <run><model>bitcoin/observer::fetchConfirmations</model></run>
             </bitcoin_fetch_confirmations>
         </jobs>
-    </crontab>
+    </crontab>-->
     
 </config>
