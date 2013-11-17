@@ -1,0 +1,13 @@
+/app/code/community/ScaleWorks/Bitcoin/ ==
+    sql -R
+    Block/ ==
+        Payment/ -R
+        Block/Checkout/Onepage -R
+        Block/Adminhtml/ -R
+
+/app/code/community/ScaleWorks/Bitcoin/Model ==
+    Payment/ -R
+
+/app/design/ -R
+
+## not deleted yet  /app/lib/jsonrpcphp/server.php
