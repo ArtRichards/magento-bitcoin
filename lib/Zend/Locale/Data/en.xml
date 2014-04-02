@@ -2860,11 +2860,11 @@
 				<displayName count="one">Bahamian dollar</displayName>
 				<displayName count="other">Bahamian dollars</displayName>
 			</currency>
-            <currency type="BTC">
+                        <currency type="BTC">
 				<displayName>Bitcoin</displayName>
 				<displayName count="one">Bitcoin</displayName>
 				<displayName count="other">Bitcoins</displayName>
-                <symbol>฿</symbol>
+                        <symbol>฿</symbol>
 			</currency>
 			<currency type="BTN">
 				<displayName>Bhutanese Ngultrum</displayName>
